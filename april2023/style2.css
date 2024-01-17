@@ -1,0 +1,98 @@
+body{
+    color:silver;
+}
+body{
+    height: 100%;
+    background-image: url(background/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: top;
+}
+.white{
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    margin-top: 150px;
+    border: solid white;
+    border-radius: 3%;
+    height: 400px;
+}
+.welcome{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: none;
+}
+.welcome img{
+    margin-top: 10px;
+    margin-bottom: none;
+    width: 40px;
+}
+.welcome h4{
+    color: black;
+    font-weight: bolder;
+    padding-top: none;
+    padding-bottom: none;
+    margin-bottom: none;
+}
+.Email{
+    padding-left:30px ;
+}
+.Email label{
+    color: black;
+    font-weight: bold;
+}
+.Email input{
+    height: 25px;
+    width: 85%;
+    border:none;
+    background-color: rgba(8, 198, 241, 0.139);
+}
+.flex{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 10px;
+}
+.flex form input{
+    margin-left: 15px;
+    border: black;
+}
+.flex form label{
+    color: black;
+    margin-top: 10px;
+}
+.flex button{
+    padding-right: 15px;
+    margin: 15px 10px 0 0;
+    height: 30px;
+    background-color: rgba(8, 198, 241, 0.139);
+
+}
+.flex input{
+    padding-right: 15px;
+    margin: 15px 10px 0 0;
+    height: 30px;
+    background-color: rgba(8, 198, 241, 0.139);
+
+}
+.flex button:hover{
+    color: white;
+    background-color: black;
+}
+.flex input:hover{
+    color: white;
+    background-color: black;
+}
+.backhome{
+    display: flex;
+    justify-content: space-around;
+}
+.backhome a{
+    text-decoration: none;
+    color: rgb(136, 133, 133);
+}
+.backhome a:hover{
+    color: rgb(15, 70, 70);
+}

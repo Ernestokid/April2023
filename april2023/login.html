@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--hero section-->
+    <section class="lorry">
+        <div class="white">
+            <div class="welcome">
+                <img src="background/logo.png" alt="logo">
+                <h4><b>Welcome Back !</b></h4>
+                <p>Sign in to continue to PikieGlobal</p>
+            </div>
+            <div class="Email">
+                <form>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" placeholder="enter@email.com" required><br>
+                    <label for="password">PassWord </label><br>
+                    <input type="password" id="password" name="password" placeholder="123qww!@#" required><br>
+                  </form>
+            </div>
+            <div class="flex">
+                <form>
+                    <input type="checkbox" id="remember" name="remember" value="remember">
+                    <label for="remember"> <b>Remember me</b></label><br>
+                </form>
+                <button id="login" onclick="login()" type="submit" >LogIn</button>
+                <button id="signup" onclick="signup()" type="submit">SignUp </button>
+            </div>
+            <div class="backhome">
+               <a href="index.html"><p><i></i>Back Home</p></a>
+                <a href="#"><p><i></i> Forgot Password?</p></a>
+            </div>
+        </div>
+        <div class="copyright">
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

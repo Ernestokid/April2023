@@ -1,0 +1,239 @@
+body{
+    background-color: rgb(46, 45, 45);
+    color: silver;
+}
+.navBar{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: larger;
+}
+.logo p strong{
+    font-style: italic;
+    color: aqua;
+    font-size: xx-large;
+}
+.navElements{
+    width: 500px;
+    padding-top: 15px;
+}
+.navElements ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navElements ul li{
+    list-style: none;
+    
+}
+.navElements ul li a{
+    text-decoration: none;
+    color: silver;
+}
+.navElements ul li a:hover{
+    color: aqua;
+    transition-delay: 0.4s;
+}
+
+.navElements ul button{
+    background-color: black;
+    padding: 3px 6px;
+    border-radius: 25%;
+    color: silver;
+    display: flow-root;
+}
+.navElements ul button:hover{
+    color: aqua;
+}
+.navElements ul li.active,
+.navElements ul li:hover{
+    color: aqua;
+    cursor: pointer;
+    text-decoration: underline;
+    transition-delay: 0.3s;
+}
+.hero{
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.hero h4{
+    color:rgba(12, 226, 226) ;
+    font-style: italic;
+}
+.hero h1{
+    color:rgba(12, 226, 226);
+    font-style: italic;
+}
+.heroSe{
+    height: 500px;
+    background-image: url("MyPics/3415005\ \(2\).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: top;
+}
+.heroSe1{
+    height: 500px;
+    background-image: url("MyPics/git.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: top;
+}
+.project{
+    text-align: center;
+    color: silver;
+}
+.project h1{
+    padding-bottom: 0px;
+    color: silver;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 900;
+}
+.project h1 strong{
+    color: aqua;
+}
+
+.project1{
+    width: 75%;
+    max-width: 600px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.project2{
+    width: 75%;
+    max-width: 500px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    min-height: 250px;
+    justify-content: center;
+    background-color: black;
+    background-image: url(MyPics/3415029.jpg);
+    background-position: center;
+    background-size: cover;
+    color: silver;
+
+}
+.project2:nth-child(2){
+    background-image:url(MyPics/3415034.jpg) ;
+}
+.project2:nth-child(3){
+    background-image:url(MyPics/3415066.png) ;
+    color: black;
+}
+.project2:nth-child(4){
+    background-image:url(MyPics/3415002.jpg) ;
+}
+.project2:nth-child(5){
+    background-image:url(MyPics/logo.png) ;
+    color: black;
+
+}
+.project2:nth-child(5) p{
+    background-color: rgba(10, 242, 176, 0.34);
+
+}
+
+.project2 h2{
+    padding-top: 30px;
+}
+.project2 p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: larger;
+}
+.pics{
+    width: 100%;
+}
+.description{
+    text-align: center;
+    color: silver;
+
+}
+.description p strong{
+    color: aqua;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+hr{
+    line-break: loose;
+    color: aqua;
+}
+footer{
+    background-color: black;
+}
+footer .icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.Work{
+    justify-content: space-between;
+}
+.Work a{
+    text-decoration: none;
+    color: silver;
+    justify-content: space-between;
+    height: 10%;
+    padding: 10px;
+    
+}
+.Work a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+#challanges h1{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+#challanges h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#challanges p strong{
+    color: aqua;
+}
+#challanges h1 strong{
+    color: aqua;
+}
+#challanges p{
+    padding-left: 30px;
+}
+.skillPic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.skillPic img{
+    max-width: 100%;
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skillList{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
